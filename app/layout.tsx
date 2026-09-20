@@ -1,10 +1,12 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
+import "./extended.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://cit-index-demo.zhaoyun0614.chatgpt.site"),
   title: "中国创新转化指数",
   description: "面向电脑浏览器的中国创新转化指数（CIT Index）实时监测与分析平台演示版。",
+  other: { "codex-preview": "development" },
   icons: { icon: "/favicon.svg", shortcut: "/favicon.svg" },
   openGraph: {
     title: "中国创新转化指数",
